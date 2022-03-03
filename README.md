@@ -1,1 +1,1 @@
-Mini Project by Arriza Alfirdausi 
+Mini Project (now with DOM manipulation) by Arriza Alfirdausi 
