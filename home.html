@@ -51,7 +51,8 @@
   <div class="container">
     <div class="content2">
         <div class="card2" style="width: 20rem;">
-          <img style="border-radius: 15px;" src="./assets/images/for aboutus/cat.png" class="card-img-top" alt="Feline">
+          <script src="./ext.js"></script>
+          <img id="catcard" onmouseover="catover()" onmouseout="catout()" style="border-radius: 15px;" src="./assets/images/for aboutus/cat.png" class="card-img-top" alt="Feline">
           <div class="card-body">
             <p class="card-text">Because of their playful and loving personality, these adorable creatures are well-liked and popular companions</p>
             <a href="./catcorner.html" class="btn btn-light">Click for Kitties</a>
@@ -61,7 +62,8 @@
 
     <div class="content2">
       <div class="card2" style="width: 20rem;">
-        <img style="border-radius: 15px;" src="./assets/images/for aboutus/dog.png" class="card-img-top" alt="Canine">
+        <script src="./ext.js"></script>
+        <img id="dogcard" onmouseover="dogover()" onmouseout="dogout()" style="border-radius: 15px;" src="./assets/images/for aboutus/dog.png" class="card-img-top" alt="Canine">
         <div class="card-body">
           <p class="card-text">These loyal and passionate creatures are one of the most sought out companions, they are often called man's best friend</p>
           <a href="./dogcorner.html" class="btn btn-light">Click for Puppers</a>
@@ -94,7 +96,8 @@
                 <label for="exampleFormControlTextarea1" class="form-label">Message</label>
                   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
               </div>
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <script src="./ext.js"></script>
+              <button type="submit" class="btn btn-primary" onclick="submitform()">Submit</button>
             </form>
           </div>
         </div>
