@@ -1,15 +1,15 @@
 function catover() {
-    document.getElementById('catcard').src = "./assets/images/for aboutus/cat-2.png";
+    document.getElementById('catcard').src = "./assets/images/aboutus/cat-2.png";
 }
 function catout() {
-    document.getElementById('catcard').src = "./assets/images/for aboutus/cat.png";
+    document.getElementById('catcard').src = "./assets/images/aboutus/cat.png";
 }
 
 function dogover() {
-    document.getElementById('dogcard').src = "./assets/images/for aboutus/dog-2.png";
+    document.getElementById('dogcard').src = "./assets/images/aboutus/dog-2.png";
 }
 function dogout() {
-    document.getElementById('dogcard').src = "./assets/images/for aboutus/dog.png";
+    document.getElementById('dogcard').src = "./assets/images/aboutus/dog.png";
 }
 
 function submitform() {
@@ -17,10 +17,10 @@ function submitform() {
 }
 
 function imagedown() {
-    document.getElementById('aboutusimage').src = "./assets/images/for aboutus/cat-n-dog-2.png";
+    document.getElementById('aboutusimage').src = "./assets/images/aboutus/cat-n-dog-2.png";
 }
 function imageup() {
-    document.getElementById('aboutusimage').src = "./assets/images/for aboutus/cats-n-dog.png";
+    document.getElementById('aboutusimage').src = "./assets/images/aboutus/cats-n-dog.png";
 }
 
 function welcome() {
